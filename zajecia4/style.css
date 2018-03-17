@@ -12,18 +12,36 @@ main {
     color: red;
 }
 
+main div {
+	display: inline-block;
+}
+
 .kwadrat {
 	background-color: blue;
-	height: 200px;
-	width: 200px;
+	height: 50px;
+	width: 50px;
 	margin: 5px
 }
 
 #jeden {
-	font-size: 50px;
+	
 	background-color: pink;
 }
 
 main p {
 	color: black;
 }
+img {
+	border-radius: 30%;
+	height: 300px;
+}
+img:hover {
+	border-radius: 50%;
+}
+
+header {
+	border: 5px dotted white;
+	position: sticky;
+	top: 10px;
+}
+
