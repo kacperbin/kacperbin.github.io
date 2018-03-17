@@ -1,0 +1,29 @@
+* {
+	font-family: monospace;
+}
+h1{
+	font-size: 50px;
+}
+
+h1 {
+	color: white;
+}
+main {
+    color: red;
+}
+
+.kwadrat {
+	background-color: blue;
+	height: 200px;
+	width: 200px;
+	margin: 5px
+}
+
+#jeden {
+	font-size: 50px;
+	background-color: pink;
+}
+
+main p {
+	color: black;
+}
