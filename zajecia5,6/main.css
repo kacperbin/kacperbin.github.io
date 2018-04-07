@@ -18,7 +18,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-	color: red;
+	color: #0796af;
 	font-weight: bold;
 	background-color: #f9f9f9;
 	cursor: pointer;

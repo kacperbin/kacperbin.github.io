@@ -26,3 +26,10 @@ function plus(w,d) {
 	document.querySelector('img').style.height = tw;
 	document.querySelector('img').style.width = td;
 }
+
+function szukaj() {
+	var zapytanie = document.getElementById('zapytanie').value;
+	console.log(zapytanie)
+	var link = 'https://maps.google.com/?q=';
+	window.open(link+zapytanie);
+}
