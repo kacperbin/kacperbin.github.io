@@ -1,7 +1,5 @@
-//var name = prompt("Jak masz na imię?");
-//alert("Hej " +name)
+var name = prompt("Jak masz na imię?");
 
-//var wiek = prompt("Ile masz lat?")
 var wys = 100;
 var dlu = 100;
 
@@ -13,6 +11,7 @@ var klik  = function(){
 }
 
 var unclick = function(){
+
 
 	document.querySelector('main').style.color = 'black';
 }
@@ -33,3 +32,4 @@ function szukaj() {
 	var link = 'https://maps.google.com/?q=';
 	window.open(link+zapytanie);
 }
+

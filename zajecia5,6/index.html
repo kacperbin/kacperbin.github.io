@@ -24,7 +24,7 @@
 	</nav>
 
 	<aside>
-     <img style="height: 100px" src="doit.gif">
+		<img style="height: 100px" src="doit.gif">
 	</aside>
 
 	<main>
@@ -50,11 +50,32 @@
 
 			<p>Vestibulum tincidunt sapien vitae sollicitudin lobortis. Nunc ex enim, suscipit at velit eu, volutpat convallis purus. Proin eu dui eu justo sagittis porta vel vitae velit. Suspendisse ultrices porta faucibus. Nulla sit amet interdum est. Curabitur enim tortor, pulvinar vitae lacinia vitae, finibus eget turpis. Quisque suscipit nec nunc sollicitudin interdum. Sed eget nisl eros. Nam luctus, mauris eu varius gravida, ligula arcu porttitor velit, at mattis sapien sem vel arcu. Quisque auctor efficitur pharetra. Pellentesque vel ipsum ac risus convallis consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed sed elit consectetur, venenatis diam pellentesque, porta sem.</p>
 
-		<p>Praesent accumsan quam in lectus vehicula congue. Vestibulum imperdiet, nibh eget egestas blandit, tellus libero blandit libero, eu lobortis est nunc ut libero. Suspendisse sit amet placerat neque. Duis a aliquam nunc. Donec porttitor sagittis est eget posuere. Nullam pulvinar tellus elit, eu tristique nisl faucibus a. In vitae lorem ut arcu finibus euismod nec sit amet mi. Suspendisse in sem ut arcu efficitur pharetra rhoncus a diam. Mauris ullamcorper consectetur eros, faucibus viverra velit congue non. Suspendisse vehicula nec lectus vitae egestas. In posuere tortor a metus hendrerit, eget scelerisque eros auctor. Nullam ac arcu in tellus tempor bibendum in in odio.</p>
+			<p>Praesent accumsan quam in lectus vehicula congue. Vestibulum imperdiet, nibh eget egestas blandit, tellus libero blandit libero, eu lobortis est nunc ut libero. Suspendisse sit amet placerat neque. Duis a aliquam nunc. Donec porttitor sagittis est eget posuere. Nullam pulvinar tellus elit, eu tristique nisl faucibus a. In vitae lorem ut arcu finibus euismod nec sit amet mi. Suspendisse in sem ut arcu efficitur pharetra rhoncus a diam. Mauris ullamcorper consectetur eros, faucibus viverra velit congue non. Suspendisse vehicula nec lectus vitae egestas. In posuere tortor a metus hendrerit, eget scelerisque eros auctor. Nullam ac arcu in tellus tempor bibendum in in odio.</p>
 		</main>
 
 		<hr style="border: 1px dashed black">
 
 		<footer>&#169;2018</footer>
+
+		<script type="text/javascript">
+
+
+			var haslo = prompt("PODAJ HASłO")
+
+
+			if ( haslo !== "123" ) {
+				alert("złe hasło!");
+				window.open("https://google.pl/search?q=" + name + " wpisał złe hasło")
+
+				document.body.innerHTML = "<h1>Odmowa dostępu</h1>";
+			}
+
+			
+			else {
+				alert("poprawne hasło")
+			}
+
+
+		</script>
 	</body>
 	</html>
