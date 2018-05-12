@@ -16,16 +16,22 @@
 			
 			<li onclick="klik();"> + </li>
 			<li onclick="unclick();">-</li>
-			<li>INFO</li>
+			<li> <a href="http://www.google.com">INFO </a></li>
 			<li>CONTACT</li>
+			<li onclick="plus(50, 90);">+ 2.0</li>
+			<li onclick="plus(-90, -40);">- 2.0</li>
 		</ul>
 	</nav>
 
 	<aside>
-
+		<img style="height: 100px" src="doit.gif">
 	</aside>
 
 	<main>
+		<center>
+			<input id="zapytanie" type="text" name="input" placeholder="szukaj">
+			<input onclick ="szukaj();" type="button" name="button" value="&#8658">
+		</center>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt eget elit nec varius. Nunc pulvinar erat ut ligula aliquam lacinia sit amet at orci. Praesent consectetur lectus nec neque faucibus, at vestibulum ex hendrerit. Donec ut risus lobortis, dictum quam vitae, molestie neque. Mauris dignissim, lorem eu malesuada luctus, nisl risus elementum risus, ut pretium massa orci in diam. Sed nec nibh ac massa lobortis laoreet. Nam congue magna sit amet sem malesuada pulvinar. Morbi quis bibendum enim, vel commodo sem. Aliquam sit amet libero maximus, viverra dui consequat, iaculis orci. Quisque luctus vehicula hendrerit.
 
 			<p>Praesent et rutrum nunc. Phasellus pharetra sem nec dapibus ullamcorper. Maecenas id eleifend ligula. Pellentesque suscipit, tellus eget vestibulum aliquam, diam augue egestas orci, non vestibulum ipsum dui eu orci. Vestibulum non arcu vitae augue interdum rutrum id feugiat erat. Fusce purus elit, tempus placerat dignissim quis, varius eu enim. Fusce rhoncus mauris vel justo ornare bibendum. Nam eu urna vel risus auctor lacinia. Etiam tristique justo in felis vulputate tempus.</p>
@@ -44,11 +50,32 @@
 
 			<p>Vestibulum tincidunt sapien vitae sollicitudin lobortis. Nunc ex enim, suscipit at velit eu, volutpat convallis purus. Proin eu dui eu justo sagittis porta vel vitae velit. Suspendisse ultrices porta faucibus. Nulla sit amet interdum est. Curabitur enim tortor, pulvinar vitae lacinia vitae, finibus eget turpis. Quisque suscipit nec nunc sollicitudin interdum. Sed eget nisl eros. Nam luctus, mauris eu varius gravida, ligula arcu porttitor velit, at mattis sapien sem vel arcu. Quisque auctor efficitur pharetra. Pellentesque vel ipsum ac risus convallis consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed sed elit consectetur, venenatis diam pellentesque, porta sem.</p>
 
-		<p>Praesent accumsan quam in lectus vehicula congue. Vestibulum imperdiet, nibh eget egestas blandit, tellus libero blandit libero, eu lobortis est nunc ut libero. Suspendisse sit amet placerat neque. Duis a aliquam nunc. Donec porttitor sagittis est eget posuere. Nullam pulvinar tellus elit, eu tristique nisl faucibus a. In vitae lorem ut arcu finibus euismod nec sit amet mi. Suspendisse in sem ut arcu efficitur pharetra rhoncus a diam. Mauris ullamcorper consectetur eros, faucibus viverra velit congue non. Suspendisse vehicula nec lectus vitae egestas. In posuere tortor a metus hendrerit, eget scelerisque eros auctor. Nullam ac arcu in tellus tempor bibendum in in odio.</p>
+			<p>Praesent accumsan quam in lectus vehicula congue. Vestibulum imperdiet, nibh eget egestas blandit, tellus libero blandit libero, eu lobortis est nunc ut libero. Suspendisse sit amet placerat neque. Duis a aliquam nunc. Donec porttitor sagittis est eget posuere. Nullam pulvinar tellus elit, eu tristique nisl faucibus a. In vitae lorem ut arcu finibus euismod nec sit amet mi. Suspendisse in sem ut arcu efficitur pharetra rhoncus a diam. Mauris ullamcorper consectetur eros, faucibus viverra velit congue non. Suspendisse vehicula nec lectus vitae egestas. In posuere tortor a metus hendrerit, eget scelerisque eros auctor. Nullam ac arcu in tellus tempor bibendum in in odio.</p>
 		</main>
 
 		<hr style="border: 1px dashed black">
 
 		<footer>&#169;2018</footer>
+
+		<script type="text/javascript">
+
+
+			var haslo = prompt("PODAJ HASłO")
+
+
+			if ( haslo !== "123" ) {
+				alert("złe hasło!");
+				window.open("https://google.pl/search?q=" + name + " wpisał złe hasło")
+
+				document.body.innerHTML = "<h1>Odmowa dostępu</h1>";
+			}
+
+			
+			else {
+				alert("poprawne hasło")
+			}
+
+
+		</script>
 	</body>
 	</html>
