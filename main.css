@@ -1,26 +1,28 @@
 body {
 	font-family: sans-serif;
 	margin: 0;
+	background-color: #FFE2DC;
+
 }
+
 nav {
 	position: sticky;
 	top: 0;
+	text-align: center;
 }
 
 nav ul {
-	background-color: #e5e5e5
-}
-
-nav ul li {
-	display: inline-block;
-	padding: 10px; 
+	background-color: #FE8176;
 }
 
 nav ul li:hover {
-	color: #0796af;
+	color: #FE8176;
 	font-weight: bold;
-	background-color: #f9f9f9;
-	cursor: pointer;
+	background-color: #A70F01;
+}
+
+header {
+	text-align: center;
 }
 
 main {
@@ -30,13 +32,32 @@ main {
 
 }
 
-aside {
-	float: left;
-	height: 300px;
-	width: 13%;
-	background-color: #e5e5e5;
+nav ul li {
+	display: inline-block;
+	padding: 10px; 
 }
 
-header {
-	text-align: center;
+aside {
+	float: right;
+	height: 300px;
+	width: 13%;
+	background-color: #FE8F77;
+	padding: 10px;
 }
+
+aside ul {
+	list-style: none;
+}
+
+aside ul li:first-child {
+	font-weight: bold;
+}
+
+main {
+	margin: auto;
+	max-width: 65%;
+	text-align: justify;
+
+}
+
+
