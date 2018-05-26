@@ -60,4 +60,20 @@ main {
 
 }
 
+.guzik {
+	border-right: 5px solid brown;
+	height: 50px;
+	background-color: #FE8F77;
+	text-align: center;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.guzik:hover {
+	background-color: #FD3A0F;
+	text-align: center;
+	cursor: pointer;
+}
 
